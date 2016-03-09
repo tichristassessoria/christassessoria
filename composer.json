@@ -1,0 +1,12 @@
+{
+    "name": "tichrist/christ",
+    "authors": [
+        {
+            "name": "Giovana Christ",
+            "email": "tichrist@christassessoria.com.br"
+        }
+    ],
+    "require": {
+    	"oyejorge/less.php": "~1.5"
+    }
+}
