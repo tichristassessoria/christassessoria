@@ -1,96 +1,96 @@
-insert into Grupo values (1, 'Acidentes Pessoais', '', imgGrupo)
-insert into Grupo values (2, 'Aero', '', imgGrupo)
-insert into Grupo values (3, 'Ambiental', '', imgGrupo)
-insert into Grupo values (4, 'Animal', '', imgGrupo)
-insert into Grupo values (5, 'Automóvel', '', imgGrupo)
-insert into Grupo values (6, 'Bike', '', imgGrupo)
-insert into Grupo values (7, 'Condomínio', '', imgGrupo)
-insert into Grupo values (8, 'Consórcio', '', imgGrupo)
-insert into Grupo values (9, 'Dental', '', imgGrupo)
-insert into Grupo values (10, 'Empresarial', '', imgGrupo)
-insert into Grupo values (11, 'Fiança', '', imgGrupo)
-insert into Grupo values (12, 'Garantia', '', imgGrupo)
-insert into Grupo values (13, 'Náutico', '', imgGrupo)
-insert into Grupo values (14, 'Previdência', '', imgGrupo)
-insert into Grupo values (15, 'Responsabilidade Civil Profissional', '', imgGrupo)
-insert into Grupo values (16, 'Residencial', '', imgGrupo)
-insert into Grupo values (17, 'Responsabilidade Civil', '', imgGrupo)
-insert into Grupo values (18, 'Risco Engenharia', '', imgGrupo)
-insert into Grupo values (19, 'Riscos Diversos', '', imgGrupo)
-insert into Grupo values (19, 'Saúde', '', imgGrupo)
-insert into Grupo values (19, 'Transporte', '', imgGrupo)
-insert into Grupo values (19, 'Vida', '', imgGrupo)
+insert into GrupoProduto values (1, 'Acidentes Pessoais', '', 'img'Grupo);
+insert into GrupoProduto values (2, 'Aero', '', 'img'Grupo);
+insert into GrupoProduto values (3, 'Ambiental', '', 'img'Grupo);
+insert into GrupoProduto values (4, 'Animal', '', 'img'Grupo);
+insert into GrupoProduto values (5, 'Automóvel', '', 'img'Grupo);
+insert into GrupoProduto values (6, 'Bike', '', 'img'Grupo);
+insert into GrupoProduto values (7, 'Condomínio', '', 'img'Grupo);
+insert into GrupoProduto values (8, 'Consórcio', '', 'img'Grupo);
+insert into GrupoProduto values (9, 'Dental', '', 'img'Grupo);
+insert into GrupoProduto values (10, 'Empresarial', '', 'img'Grupo);
+insert into GrupoProduto values (11, 'Fiança', '', 'img'Grupo);
+insert into GrupoProduto values (12, 'Garantia', '', 'img'Grupo);
+insert into GrupoProduto values (13, 'Náutico', '', 'img'Grupo);
+insert into GrupoProduto values (14, 'Previdência', '', 'img'Grupo);
+insert into GrupoProduto values (15, 'Responsabilidade Civil Profissional', '', 'img'Grupo);
+insert into GrupoProduto values (16, 'Residencial', '', 'img'Grupo);
+insert into GrupoProduto values (17, 'Responsabilidade Civil', '', 'img'Grupo);
+insert into GrupoProduto values (18, 'Risco Engenharia', '', 'img'Grupo);
+insert into GrupoProduto values (19, 'Riscos Diversos', '', 'img'Grupo);
+insert into GrupoProduto values (20, 'Saúde', '', 'img'Grupo);
+insert into GrupoProduto values (21, 'Transporte', '', 'img'Grupo);
+insert into GrupoProduto values (22, 'Vida', '', 'img'Grupo);
 
-insert into Produto values (cod, nome, codGrupo, descricao, img, email, tags)
+insert into Produto values (cod, nome, codGrupo, descricao, 'img', email, 'tags')
 
-insert into Produto values (1, 'Acidentes Pessoais', 1, 'Diversas modalidades - Moto Táxi, Moto Frete, caminhoneiros, passageiros - possibilidade para seguros auxilio funeral, dit', img, 'Raya, Sergio, Edeval', tags)
-insert into Produto values (2, 'Aeronáutico', 2, desc, img, emails, tags)
-insert into Produto values (3, 'Responsabilidade Civil Ambiental', 3, desc, img, emails, tags)
-insert into Produto values (4, 'Animais', 4, desc, img, emails, tags)
-insert into Produto values (5, 'Automóvel', 5, desc, img, emails, tags)
-insert into Produto values (6, 'Condomínio', 7, desc, img, emails, tags)
-insert into Produto values (7, 'Dental Individual E Coletivo', 9, desc, img, emails, tags)
-insert into Produto values (8, 'Dpem (Seguro Obrigatório Para Embarcações)', 13, desc, img, emails, tags)
-insert into Produto values (9, 'Empresarial', 10, desc, img, emails, tags)
-insert into Produto values (10, 'Fiança Capitalização', 11, desc, img, emails, tags)
-insert into Produto values (11, 'Fiança Locatícia', 11, desc, img, emails, tags)
-insert into Produto values (12, 'Frota', 5, desc, img, emails, tags)
-insert into Produto values (13, 'Garantia', 12, desc, img, emails, tags)
-insert into Produto values (14, 'Garantia Adiantamento De Pagamento', 12, desc, img, emails, tags)
-insert into Produto values (15, 'Garantia Aduaneira', 12, desc, img, emails, tags)
-insert into Produto values (16, 'Garantia Do Executante Construtor', 12, desc, img, emails, tags)
-insert into Produto values (17, 'Garantia Do Executante Fornecedor', 12, desc, img, emails, tags)
-insert into Produto values (18, 'Garantia Do Executante Prestador De Serviços', 12, desc, img, emails, tags)
-insert into Produto values (19, 'Garantia Do Licitante (Big Bond)', 12, desc, img, emails, tags)
-insert into Produto values (20, 'Garantia Imobiliária', 12, desc, img, emails, tags)
-insert into Produto values (21, 'Garantia Manutenção Corretiva', 12, desc, img, emails, tags)
-insert into Produto values (22, 'Garantia Para Concessões Públicas', 12, desc, img, emails, tags)
-insert into Produto values (23, 'Garantia Para O Setor Energético', 12, desc, img, emails, tags)
-insert into Produto values (24, 'Garantia Retenção De Pagamento', 12, desc, img, emails, tags)
-insert into Produto values (25, 'Garantias Financeiras', 12, desc, img, emails, tags)
-insert into Produto values (26, 'Garantias Judiciais', 12, desc, img, emails, tags)
-insert into Produto values (27, 'Garantias Para Grandes Contratos Públicos/Privados', 12, desc, img, emails, tags)
-insert into Produto values (28, 'Náutico', 13, desc, img, emails, tags)
-insert into Produto values (29, 'Previdência Privada', 14, desc, img, emails, tags)
-insert into Produto values (30, 'Residencial', 16, desc, img, emails, tags)
-insert into Produto values (31, 'Responsabilidade Civil Geral', 17, desc, img, emails, tags)
-insert into Produto values (32, 'Responsabilidade Civil Profissional', 17, desc, img, emails, tags)
-insert into Produto values (33, 'Responsabilidade Civil Profissional Advogado', 15, desc, img, emails, tags)
-insert into Produto values (34, 'Responsabilidade Civil Notário', 15, desc, img, emails, tags)
-insert into Produto values (35, 'Responsabilidade Civil Profissional Contabilista', 15, desc, img, emails, tags)
-insert into Produto values (36, 'Responsabilidade Civil Profissional Corretor De Imóveis', 15, desc, img, emails, tags)
-insert into Produto values (37, 'Responsabilidade Civil Profissional Corretor De Seguros', 15, desc, img, emails, tags)
-insert into Produto values (38, 'Responsabilidade Civil Profissional Dentistas', 15, desc, img, emails, tags)
-insert into Produto values (39, 'Responsabilidade Civil Profissional Engenheiro E Arquiteto', 15, desc, img, emails, tags)
-insert into Produto values (40, 'Responsabilidade Civil Profissional Eventos', 15, desc, img, emails, tags)
-insert into Produto values (41, 'Responsabilidade Civil Profissional Médico', 15, desc, img, emails, tags)
-insert into Produto values (42, 'Reta', 2, desc, img, emails, tags)
-insert into Produto values (43, 'Risco Diversos', 19, desc, img, emails, tags)
-insert into Produto values (44, 'Risco Engenharia', 18, desc, img, emails, tags)
-insert into Produto values (45, 'Saúde', 20, desc, img, emails, tags)
-insert into Produto values (46, 'Transporte', 21, desc, img, emails, tags)
-insert into Produto values (47, 'Mototáxi', 1, desc, img, emails, tags)
-insert into Produto values (48, 'D & O', 15, desc, img, emails, tags)
-insert into Produto values (49, 'Consórcio', 8, desc, img, emails, tags)
-insert into Produto values (50, 'Motofrete', 1, desc, img, emails, tags)
-insert into Produto values (51, 'Acidentes Pessoais Passageiros', 1, desc, img, emails, tags)
-insert into Produto values (52, 'Transporte - Cargas Perigosas', 21, desc, img, emails, tags)
-insert into Produto values (53, 'Transporte - Internacional E Nacional', 21, desc, img, emails, tags)
-insert into Produto values (54, 'Vida Individual', 22, desc, img, emails, tags)
-insert into Produto values (55, 'Seguro Viagem', 22, desc, img, emails, tags)
-insert into Produto values (56, 'Educacional', 22, desc, img, emails, tags)
-insert into Produto values (57, 'Diet(diabéticos)', 22, desc, img, emails, tags)
-insert into Produto values (58, 'Vida Acima 65 anos', 22, desc, img, emails, tags)
-insert into Produto values (59, 'Freedom - Homoafetivo', 22, desc, img, emails, tags)
-insert into Produto values (60, 'Vida Máxima Mulher', 22, desc, img, emails, tags)
-insert into Produto values (61, 'Veiculos Especiais Acima De R$ 100.000,00', 5, desc, img, emails, tags)
-insert into Produto values (62, 'Dental Empresarial Spg', 9, desc, img, emails, tags)
-insert into Produto values (63, 'Empresarial - Grandes Riscos', 10, desc, img, emails, tags)
-insert into Produto values (64, 'Bicicletas', 6, desc, img, emails, tags)
-insert into Produto values (65, 'Vida Empresarial Spg', 22, desc, img, emails, tags)
-insert into Produto values (66, 'Vida Empresarial Pme', 22, desc, img, emails, tags)
-insert into Produto values (67, 'Vida Empresarial Capital Global', 22, desc, img, emails, tags)
-insert into Produto values (68, 'Auto - Segurados E Veículos Restritos', 5, desc, img, emails, tags)
-insert into Produto values (69, 'Responsabilidade Civil Eventos', 17, desc, img, emails, tags)
-insert into Produto values (70, 'Responsabilidade Civil Geral', 17, desc, img, emails, tags)	
-insert into Produto values (71, 'Garantias Ações Trabalhistas E Previdenciárias (cobertura adicional)', 12, desc, img, emails, tags)
+insert into Produto values (1, 'Acidentes Pessoais', 1, 'Diversas modalidades - Moto Táxi, Moto Frete, Caminhoneiros, Passageiros - possibilidade para seguros auxilio funeral e DIT', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (2, 'Aeronáutico', 2, 'Helicópteros, Aeronaves experimentais, Pistonadas, até 40 anos.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (3, 'Responsabilidade Civil Ambiental', 3, 'Transporte de cargas perigosas e outros sob consulta.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (4, 'Animais', 4, 'Equinos.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (5, 'Automóvel', 5, 'Individual e Frotas - ver frota', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br', 'tags');
+insert into Produto values (6, 'Condomínio', 7, 'É um seguro obrigatório sob responsabilidade civil do síndico.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br', 'tags');
+insert into Produto values (7, 'Dental Individual E Coletivo', 9, 'Seguro acessível e necessário - um dos melhores benefícios para os funcionários.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (8, 'Dpem (Seguro Obrigatório Para Embarcações)', 13, 'Obrigatório para toda embarcação.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (9, 'Empresarial', 10, 'Proteção patrimonial - necessário.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (10, 'Fiança Capitalização', 11, 'Opção para substituir o fiador e capitalizar os recursos.', 'img', 'Raya|Edeval', 'tags');
+insert into Produto values (11, 'Fiança Locatícia', 11, 'Substitui o fiador com vantagens.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (12, 'Frota', 5, 'Descontos sob consulta.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.ocm.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (13, 'Garantia', 12, 'Normalmente garantia de execução de contrato(diversas modalidades).', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (14, 'Garantia Adiantamento De Pagamento', 12, 'Garante a indenização, até o valor da garantia pelos prejuízos decorrentes no contrato.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (15, 'Garantia Aduaneira', 12, 'Garante ao segurado até o valor da garantia fixada pelo não cumprimento das obrigações vinculadas ao termo de responsabilidade.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (16, 'Garantia Do Executante Construtor', 12, 'Garante as obrigações do executante, previstas no contrato, seja para construir, fabricar, fornecer ou prestar serviços.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (17, 'Garantia Do Executante Fornecedor', 12, 'Garante as obrigações do executante, previstas no contrato, seja para construir, fabricar, fornecer ou prestar serviços.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (18, 'Garantia Do Executante Prestador De Serviços', 12, 'Garante as obrigações do executante, previstas no contrato, seja para construir, fabricar, fornecer ou prestar serviços.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (19, 'Garantia Do Licitante (Big Bond)', 12, 'Garantia de que a empresa vencedora da licitação assinará o contrato de execução mantendo o preço e condições propostas.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (20, 'Garantia Imobiliária', 12, ' Responde pelos prejuízos decorrentes das obrigações assumidas no contrato de compra e venda relativo à construção de edificações ou conjunto de edificações.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (21, 'Garantia Manutenção Corretiva', 12, 'desc', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (22, 'Garantia Para Concessões Públicas', 12, 'Garante a indenização ao órgão do governo que realiza a concessão de um serviço em caso de não cumprimento do contrato por parte da concessionária.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (23, 'Garantia Para O Setor Energético', 12, 'desc', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (24, 'Garantia Retenção De Pagamento', 12, 'Garante a indenização dos prejuízos causados ao segurado pelo não cumprimentoo das obrigações vinculadas às retenções de pagamentos previstas no contrato.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (25, 'Garantias Financeiras', 12, 'Garantias judicial, judicial para execução fiscal.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (26, 'Garantias Judiciais', 12, 'Garante o pagamento de valores necessários no trâmite de processos judiciais. tendo efeito se transitado em julgado.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (27, 'Garantias Para Grandes Contratos Públicos/Privados', 12, 'Garantia para concessões públicas.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (28, 'Náutico', 13, 'Para embarcações de recreio e outras.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br', 'tags');
+insert into Produto values (29, 'Previdência Privada', 14, 'Poupança de longo prazo - resgate ou aposentadoria.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (30, 'Residencial', 16, 'Proteçao patrimonial.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (31, 'Responsabilidade Civil Geral', 17, 'Diversas modalidades contratadas através de questionários - solicite.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (32, 'Responsabilidade Civil Profissional', 17, 'Várias opções para profissionais.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (33, 'Responsabilidade Civil Profissional Advogado', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (34, 'Responsabilidade Civil Notário', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (35, 'Responsabilidade Civil Profissional Contabilista', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (36, 'Responsabilidade Civil Profissional Corretor De Imóveis', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (37, 'Responsabilidade Civil Profissional Corretor De Seguros', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (38, 'Responsabilidade Civil Profissional Dentistas', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (39, 'Responsabilidade Civil Profissional Engenheiro E Arquiteto', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (40, 'Responsabilidade Civil Profissional Eventos', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (41, 'Responsabilidade Civil Profissional Médico', 15, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (42, 'Reta', 2, 'Seguro obrigatório para aeronaves.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (43, 'Risco Diversos', 19, 'Individuais e frotas/lmi único.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (44, 'Risco Engenharia', 18, 'Desde pequenas reformas.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (45, 'Saúde', 20, 'A partir de 3 vidas - consulte.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (46, 'Transporte', 21, 'Transporte nacional, internacional e rctrc/dc.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (47, 'Mototáxi', 1, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (48, 'D & O', 15, 'Seguros de responsabilidade civil de diretores e proprietários de empresas.', 'img', 'sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (49, 'Consórcio', 8, 'Uma opção de poupança e aquisição de bens duráveis.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (50, 'Motofrete', 1, 'Consulte.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (51, 'Acidentes Pessoais Passageiros', 1, 'Vans, ônibus, lotações, viagens e outros', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (52, 'Transporte - Cargas Perigosas', 21, 'Responsabilidade civil ambiental', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (53, 'Transporte - Internacional E Nacional', 21, 'Consulte.', 'img', 'sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (54, 'Vida Individual', 22, 'Diversas opções de coberturas - diagnóstico de doenças graves, DIT.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (55, 'Seguro Viagem', 22, 'Assistência no exterior.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (56, 'Educacional', 22, 'Inadimplência por desemprego.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (57, 'Diet(diabéticos)', 22, 'Seguro para diabéticos.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (58, 'Vida Acima 65 anos', 22, 'Longevidade - vida senior até 80 anos.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (59, 'Freedom - Homoafetivo', 22, 'Permite nomear beneficiário até 100% do valor da importância segurada contratada.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (60, 'Vida Máxima Mulher', 22, 'Diagnostico de doença grave.', 'img', 'eraya@christassessoria.com.br', 'tags');
+insert into Produto values (61, 'Veiculos Especiais Acima De R$ 100.000,00', 5, 'Automóvel de alto valor - coberturas especiais.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br', 'tags');
+insert into Produto values (62, 'Dental Empresarial Spg', 9, 'Benefício para funcionários - co-participação - retenha talentos.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (63, 'Empresarial - Grandes Riscos', 10, 'A partir de R$ 90 milhoes de valor em risco.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (64, 'Bicicletas', 6, 'A partir de R$ 3.000,00. ', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (65, 'Vida Empresarial Spg', 22, 'Consulte.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (66, 'Vida Empresarial Pme', 22, 'Pequenos grupos.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (67, 'Vida Empresarial Capital Global', 22, 'Não há movimentação - utiliza guia do fgts - opções de capitais distintos proprietários e funcionários.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (68, 'Auto - Segurados E Veículos Restritos', 5, 'Aceitação praticamente ilimitada: carros antigos, de colecionador, rebaixados, tunados e motos de qualquer tipo.', 'img', 'edeval@christassessoria.com.br', 'tags');
+insert into Produto values (69, 'Responsabilidade Civil Eventos', 17, 'Seguro obrigatório - concentração de pessoas.', 'img', 'sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (70, 'Responsabilidade Civil Geral', 17, 'Consulte - mediante questionários e avaliações.', 'img', 'sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
+insert into Produto values (71, 'Garantias Ações Trabalhistas E Previdenciárias (cobertura adicional)', 12, 'Pagamento dos prejuízos sofridos em relação às obrigações de natureza trabalhista e previdenciária.', 'img', 'edeval@christassessoria.com.br', 'tags');
