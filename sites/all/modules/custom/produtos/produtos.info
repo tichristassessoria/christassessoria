@@ -1,0 +1,6 @@
+name = "Produtos Christ"
+description = "Teste."
+package = "Christ Assessoria"
+core = "7.x"
+version = "7.x-1.0"
+files[] = produtos.module

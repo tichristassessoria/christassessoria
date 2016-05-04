@@ -1,0 +1,15 @@
+<?php
+/**
+* @file
+* Assists developers in the deployment process.
+*
+* Adds some funcions and configurations
+* to help developers in some process.
+*/
+
+$conexao = mysql_connect('localhost', 'admin', 'christ@123') or die (mysql_error());
+mysql_select_db('christ');
+
+
+
+?>

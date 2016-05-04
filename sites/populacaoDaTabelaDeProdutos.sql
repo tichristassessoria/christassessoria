@@ -1,25 +1,25 @@
-insert into GrupoProduto values (1, 'Acidentes Pessoais', '', 'img'Grupo);
-insert into GrupoProduto values (2, 'Aero', '', 'img'Grupo);
-insert into GrupoProduto values (3, 'Ambiental', '', 'img'Grupo);
-insert into GrupoProduto values (4, 'Animal', '', 'img'Grupo);
-insert into GrupoProduto values (5, 'Automóvel', '', 'img'Grupo);
-insert into GrupoProduto values (6, 'Bike', '', 'img'Grupo);
-insert into GrupoProduto values (7, 'Condomínio', '', 'img'Grupo);
-insert into GrupoProduto values (8, 'Consórcio', '', 'img'Grupo);
-insert into GrupoProduto values (9, 'Dental', '', 'img'Grupo);
-insert into GrupoProduto values (10, 'Empresarial', '', 'img'Grupo);
-insert into GrupoProduto values (11, 'Fiança', '', 'img'Grupo);
-insert into GrupoProduto values (12, 'Garantia', '', 'img'Grupo);
-insert into GrupoProduto values (13, 'Náutico', '', 'img'Grupo);
-insert into GrupoProduto values (14, 'Previdência', '', 'img'Grupo);
-insert into GrupoProduto values (15, 'Responsabilidade Civil Profissional', '', 'img'Grupo);
-insert into GrupoProduto values (16, 'Residencial', '', 'img'Grupo);
-insert into GrupoProduto values (17, 'Responsabilidade Civil', '', 'img'Grupo);
-insert into GrupoProduto values (18, 'Risco Engenharia', '', 'img'Grupo);
-insert into GrupoProduto values (19, 'Riscos Diversos', '', 'img'Grupo);
-insert into GrupoProduto values (20, 'Saúde', '', 'img'Grupo);
-insert into GrupoProduto values (21, 'Transporte', '', 'img'Grupo);
-insert into GrupoProduto values (22, 'Vida', '', 'img'Grupo);
+insert into GrupoProduto values (1, 'Acidentes Pessoais', '', 'img');
+insert into GrupoProduto values (2, 'Aero', '', 'img');
+insert into GrupoProduto values (3, 'Ambiental', '', 'img');
+insert into GrupoProduto values (4, 'Animal', '', 'img');
+insert into GrupoProduto values (5, 'Automóvel', '', 'img');
+insert into GrupoProduto values (6, 'Bike', '', 'img');
+insert into GrupoProduto values (7, 'Condomínio', '', 'img');
+insert into GrupoProduto values (8, 'Consórcio', '', 'img');
+insert into GrupoProduto values (9, 'Dental', '', 'img');
+insert into GrupoProduto values (10, 'Empresarial', '', 'img');
+insert into GrupoProduto values (11, 'Fiança', '', 'img');
+insert into GrupoProduto values (12, 'Garantia', '', 'img');
+insert into GrupoProduto values (13, 'Náutico', '', 'img');
+insert into GrupoProduto values (14, 'Previdência', '', 'img');
+insert into GrupoProduto values (15, 'Responsabilidade Civil Profissional', '', 'img');
+insert into GrupoProduto values (16, 'Residencial', '', 'img');
+insert into GrupoProduto values (17, 'Responsabilidade Civil', '', 'img');
+insert into GrupoProduto values (18, 'Risco Engenharia', '', 'img');
+insert into GrupoProduto values (19, 'Riscos Diversos', '', 'img');
+insert into GrupoProduto values (20, 'Saúde', '', 'img');
+insert into GrupoProduto values (21, 'Transporte', '', 'img');
+insert into GrupoProduto values (22, 'Vida', '', 'img');
 
 insert into Produto values (cod, nome, codGrupo, descricao, 'img', email, 'tags')
 
@@ -32,7 +32,7 @@ insert into Produto values (6, 'Condomínio', 7, 'É um seguro obrigatório sob 
 insert into Produto values (7, 'Dental Individual E Coletivo', 9, 'Seguro acessível e necessário - um dos melhores benefícios para os funcionários.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
 insert into Produto values (8, 'Dpem (Seguro Obrigatório Para Embarcações)', 13, 'Obrigatório para toda embarcação.', 'img', 'eraya@christassessoria.com.br', 'tags');
 insert into Produto values (9, 'Empresarial', 10, 'Proteção patrimonial - necessário.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
-insert into Produto values (10, 'Fiança Capitalização', 11, 'Opção para substituir o fiador e capitalizar os recursos.', 'img', 'Raya|Edeval', 'tags');
+insert into Produto values (10, 'Fiança Capitalização', 11, 'Opção para substituir o fiador e capitalizar os recursos.', 'img', 'eraya@christassessoria.com.br|edeval@christassessoria.com.br', 'tags');
 insert into Produto values (11, 'Fiança Locatícia', 11, 'Substitui o fiador com vantagens.', 'img', 'eraya@christassessoria.com.br', 'tags');
 insert into Produto values (12, 'Frota', 5, 'Descontos sob consulta.', 'img', 'eraya@christassessoria.com.br|sergio@christassessoria.ocm.br|edeval@christassessoria.com.br', 'tags');
 insert into Produto values (13, 'Garantia', 12, 'Normalmente garantia de execução de contrato(diversas modalidades).', 'img', 'edeval@christassessoria.com.br', 'tags');

@@ -126,11 +126,11 @@
 
   <div class="row">
 
-    <?php if (!empty($page['sidebar_first'])): ?>
+    <!--<?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
+    <!--<?php endif; ?> -->
 
     <section<?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
@@ -139,10 +139,10 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
+      <!--<?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
+      <?php endif; ?>-->
+      <!--<?php print render($title_suffix); ?>-->
       <?php print $messages; ?>
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
@@ -156,11 +156,12 @@
       <?php print render($page['content']); ?>
     </section>
 
-    <?php if (!empty($page['sidebar_second'])): ?>
+
+    <!-- <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
+    <!-- <?php endif; ?> -->
 
   </div>
 </div>
