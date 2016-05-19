@@ -1,4 +1,63 @@
-.navbar-default {
-	margin-top: 0px;
-	background-color: #ff9933;
+#block-views-slideshow-block {
+	.carousel-indicators {
+		li {
+			background-color: #fff; // IE9
+			border: none;
+			height: 9px;
+			width:  9px;
+		}
+
+		.active {
+			background-color: @carousel-indicator-active-bg;
+  	}
+	}
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.footer {
+	background-color: @blue-christ;
+}
+
+#navbar {
+	color: #ffffff;
+	height: 100px;
+	margin-bottom: 0;
+	margin-top: 0;
+  transition: height .2s ease;
+
+	a {
+		background-color: #000033;
+		color: #ffffff;
+	}
+}
+
+.navbar-fixed-top {
+	background-color: #000033;
+	border-color: #000033;
+	filter: alpha(opacity=80); 		/*opacidade pro IE*/
+	opacity: 0.8;
+	-moz-opacity: 0.8; 				/*opacidade pro mozila*/
+}
+
+.facebook-icon {
+	background-image: url("../images/saturno.png");
+}
+
+.webmail-icon {
+	background-image: url("../images/brabuleta.png");
+}
+
+.footer {
+	border: none !important;
+	color: @white;
+	margin-top: 0 !important;
+}
+
+body {
+	.page-node {
+		padding-top: 0 !important;
+	}
 }

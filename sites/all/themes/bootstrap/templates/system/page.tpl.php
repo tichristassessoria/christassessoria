@@ -73,7 +73,7 @@
  * @ingroup templates
  */
 ?>
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> navbar-fixed-top">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if ($logo): ?>
@@ -108,14 +108,17 @@
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="leaf active"><a href="/christ/" title="" class="active webmail-icon"><img src="./sites/all/themes/hug2/images/brabuleta.png"> </a></li>
+            <li class="leaf active"><a href="/christ/" title="" class="active facebook-icon"><img src="./sites/all/themes/hug2/images/saturno.png"> </a></li></a></li>
+          </ul>
         </nav>
       </div>
     <?php endif; ?>
   </div>
 </header>
 
-<div class="main-container <?php print $container_class; ?>">
-
+<div class="main-container container-fluid">
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
@@ -125,13 +128,6 @@
   </header> <!-- /#page-header -->
 
   <div class="row">
-
-    <!--<?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <!--<?php endif; ?> -->
-
     <section<?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
@@ -155,19 +151,54 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
     </section>
-
-
-    <!-- <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <!-- <?php endif; ?> -->
-
   </div>
 </div>
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
+  <footer class="footer container-fluid">
     <?php print render($page['footer']); ?>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-3">
+          <img src="http://localhost/christ/sites/default/files/logo3_0.png">
+        </div>
+
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 unidades unidades-titulo">
+              Nossas unidades
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p> CAMPINAS </p>
+              <p> Rua Piquete, 1126 / Nova Campinas </p>
+              <p> CEP 12312389 </p>
+              <p> (19) bjs me liga </p>
+            </div>
+            <div class="col-sm-6">
+              <p> BAURU </p>
+              <p> Av Nações Unidas, 17-17 / Centro </p>
+              <p> CEP 12312389 </p>
+              <p> (14) bjs me liga </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p>email@christassessoria.com.br</p>
+              <p>facebook.com/christassessoria</p>
+            </div>
+
+            <div class="col-sm-6">
+              <img src="./sites/all/themes/hug2/images/aconseg.png">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   </footer>
 <?php endif; ?>
