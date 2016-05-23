@@ -109,8 +109,8 @@
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
           <ul class="nav navbar-nav navbar-right">
-            <li class="leaf active"><a href="/christ/" title="" class="active webmail-icon"><img src="./sites/all/themes/hug2/images/brabuleta.png"> </a></li>
-            <li class="leaf active"><a href="/christ/" title="" class="active facebook-icon"><img src="./sites/all/themes/hug2/images/saturno.png"> </a></li></a></li>
+            <li class="leaf active"><a href="/christ/" title="" class="active webmail-icon"><img src="http://localhost/christ/sites/default/files/logoWebmail.png"> </a></li>
+            <li class="leaf active"><a href="/christ/" title="" class="active facebook-icon"><img src="http://localhost/christ/sites/default/files/logoFb.png"> </a></li></a></li>
           </ul>
         </nav>
       </div>

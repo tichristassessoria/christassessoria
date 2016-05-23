@@ -5873,22 +5873,38 @@ button.close {
 }
 #navbar {
   color: #ffffff;
-  height: 100px;
+  font-family: "Titillium Web";
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 0;
   margin-top: 0;
-  transition: height .2s ease;
 }
 #navbar a {
-  background-color: #000033;
+  background-color: transparent;
   color: #ffffff;
 }
+#navbar .menu .first {
+  padding-left: 67px !important;
+}
+#navbar .menu .leaf {
+  padding-left: 12px;
+}
+#navbar .navbar-right .webmail-icon {
+  padding-right: 7px;
+}
+#navbar .navbar-right .facebook-icon {
+  padding-left: 0;
+}
+#navbar .logo {
+  padding-right: 0px;
+}
 .navbar-fixed-top {
-  background-color: #000033;
-  border-color: #000033;
-  filter: alpha(opacity=80);
+  background-image: url("http://localhost/christ/sites/default/files/cabecalho.png");
+  border: none;
+  filter: alpha(opacity=95);
   /*opacidade pro IE*/
-  opacity: 0.8;
-  -moz-opacity: 0.8;
+  opacity: 0.95;
+  -moz-opacity: 0.95;
   /*opacidade pro mozila*/
 }
 .facebook-icon {

@@ -1,3 +1,4 @@
+
 #block-views-slideshow-block {
 	.carousel-indicators {
 		li {
@@ -23,23 +24,48 @@
 
 #navbar {
 	color: #ffffff;
-	height: 100px;
+	font-family: @font-titillium;
+	font-size: 20px; 
+	font-weight: 700;
 	margin-bottom: 0;
 	margin-top: 0;
-  transition: height .2s ease;
 
 	a {
-		background-color: #000033;
+		background-color: transparent;
 		color: #ffffff;
+	}
+
+	.menu {
+		.first {
+		padding-left: 67px !important;
+	}
+
+		.leaf {
+			padding-left: 12px;
+		}
+	}
+
+	.navbar-right {
+		.webmail-icon {
+			padding-right: 7px;
+		}
+
+		.facebook-icon {
+			padding-left: 0;
+		}
+	}
+
+	.logo {
+		padding-right: 0px;
 	}
 }
 
 .navbar-fixed-top {
-	background-color: #000033;
-	border-color: #000033;
-	filter: alpha(opacity=80); 		/*opacidade pro IE*/
-	opacity: 0.8;
-	-moz-opacity: 0.8; 				/*opacidade pro mozila*/
+	background-image: url("http://localhost/christ/sites/default/files/cabecalho.png");
+	border: none;
+	filter: alpha(opacity=95); 		/*opacidade pro IE*/
+	opacity: 0.95;
+	-moz-opacity: 0.95; 				/*opacidade pro mozila*/
 }
 
 .facebook-icon {
