@@ -13,7 +13,7 @@
 	    {
 	        $('#navbar').data('size','small');
 	        $('#navbar').stop().animate({
-	            height:'69px'
+	            height:'138px'
 	        },400);
 	    }
 	}

@@ -37,22 +37,40 @@
 
 	.menu {
 		.first {
-		padding-left: 67px !important;
-	}
+			padding-left: 36px !important;
+		}
 
 		.leaf {
-			padding-left: 12px;
+			.active {
+				padding: 0 0 0 32px;
+			}
 		}
 	}
 
+	.navbar-btn {
+		margin-bottom: 23px;
+		margin-top: 16px;    
+	}
+
 	.navbar-right {
+		padding-top: 50px !important;
 		.webmail-icon {
 			padding-right: 7px;
+			padding-top: 0;
 		}
 
 		.facebook-icon {
 			padding-left: 0;
+			padding-top: 0;
 		}
+	}
+
+	.navbar-nav {
+		padding-top: 60px;
+	}
+
+	.menu {
+		padding-right: 220px;
 	}
 
 	.logo {
@@ -63,17 +81,9 @@
 .navbar-fixed-top {
 	background-image: url("http://localhost/christ/sites/default/files/cabecalho.png");
 	border: none;
-	filter: alpha(opacity=95); 		/*opacidade pro IE*/
-	opacity: 0.95;
-	-moz-opacity: 0.95; 				/*opacidade pro mozila*/
-}
-
-.facebook-icon {
-	background-image: url("../images/saturno.png");
-}
-
-.webmail-icon {
-	background-image: url("../images/brabuleta.png");
+	filter: alpha(opacity=90); 		/*opacidade pro IE*/
+	opacity: 0.90;
+	-moz-opacity: 0.90; 				/*opacidade pro mozila*/
 }
 
 .footer {
@@ -85,5 +95,60 @@
 body {
 	.page-node {
 		padding-top: 0 !important;
+	}
+	.toolbar {
+		.navbar-is-fixed-top {
+			padding-top: 0 !important;
+		}
+	}
+}
+
+.todoEstado {
+	margin-bottom: 54px;
+
+	.col-sm-6 {
+		margin-right: 20px;
+		width: 42%;
+	}
+
+	.textoRetrospectiva {
+		color: @blue-jairo;
+		font-family: @font-titillium;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 32px;
+		padding-top: 60px;
+		width: 460px;
+	}
+
+	.tituloEstado {
+		color: @orange-jairo;
+		font-family: @font-titillium;
+		font-size: 50px;
+		font-weight: 700;
+		margin-bottom: 21px;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.subtituloMeta {
+		color: @blue-jairo;
+		font-family: @font-PTSans;
+		font-size: 30px;
+		font-style: italic; 
+	}
+}
+
+.principalProdutos {
+	//background-image: url("http://localhost/christ/sites/default/files/bannerProdutos.png");
+	//background-size: 1924px 384px;
+	//height: 384px;
+
+	.tituloProdutos {
+		color: @blue-jairo;
+		font-family: @font-titillium;
+		font-size: 50px;
+		font-weight: 800;
+		padding-top: 90px;
 	}
 }

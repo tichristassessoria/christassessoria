@@ -5884,16 +5884,31 @@ button.close {
   color: #ffffff;
 }
 #navbar .menu .first {
-  padding-left: 67px !important;
+  padding-left: 36px !important;
 }
-#navbar .menu .leaf {
-  padding-left: 12px;
+#navbar .menu .leaf .active {
+  padding: 0 0 0 32px;
+}
+#navbar .navbar-btn {
+  margin-bottom: 23px;
+  margin-top: 16px;
+}
+#navbar .navbar-right {
+  padding-top: 50px !important;
 }
 #navbar .navbar-right .webmail-icon {
   padding-right: 7px;
+  padding-top: 0;
 }
 #navbar .navbar-right .facebook-icon {
   padding-left: 0;
+  padding-top: 0;
+}
+#navbar .navbar-nav {
+  padding-top: 60px;
+}
+#navbar .menu {
+  padding-right: 220px;
 }
 #navbar .logo {
   padding-right: 0px;
@@ -5901,17 +5916,11 @@ button.close {
 .navbar-fixed-top {
   background-image: url("http://localhost/christ/sites/default/files/cabecalho.png");
   border: none;
-  filter: alpha(opacity=95);
+  filter: alpha(opacity=90);
   /*opacidade pro IE*/
-  opacity: 0.95;
-  -moz-opacity: 0.95;
+  opacity: 0.90;
+  -moz-opacity: 0.90;
   /*opacidade pro mozila*/
-}
-.facebook-icon {
-  background-image: url("../images/saturno.png");
-}
-.webmail-icon {
-  background-image: url("../images/brabuleta.png");
 }
 .footer {
   border: none !important;
@@ -5920,6 +5929,47 @@ button.close {
 }
 body .page-node {
   padding-top: 0 !important;
+}
+body .toolbar .navbar-is-fixed-top {
+  padding-top: 0 !important;
+}
+.todoEstado {
+  margin-bottom: 54px;
+}
+.todoEstado .col-sm-6 {
+  margin-right: 20px;
+  width: 42%;
+}
+.todoEstado .textoRetrospectiva {
+  color: #183659;
+  font-family: "Titillium Web";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 60px;
+  width: 460px;
+}
+.todoEstado .tituloEstado {
+  color: #f96920;
+  font-family: "Titillium Web";
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  margin-top: 40px;
+  text-align: center;
+}
+.todoEstado .subtituloMeta {
+  color: #183659;
+  font-family: "PT Sans";
+  font-size: 30px;
+  font-style: italic;
+}
+.principalProdutos .tituloProdutos {
+  color: #183659;
+  font-family: "Titillium Web";
+  font-size: 50px;
+  font-weight: 800;
+  padding-top: 90px;
 }
 .modal-open {
   overflow: hidden;
