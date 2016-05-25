@@ -157,11 +157,11 @@
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer container-fluid">
     <?php print render($page['footer']); ?>
-    <div class="container">
+    <div class="container rodape">
       <div class="row">
 
         <div class="col-sm-3">
-          <img src="http://localhost/christ/sites/default/files/logo3_0.png">
+          <img src="http://localhost/christ/sites/default/files/logoRodape.png">
         </div>
 
         <div class="col-sm-9">
@@ -172,27 +172,58 @@
           </div>
           <div class="row">
             <div class="col-sm-6">
-              <p> CAMPINAS </p>
-              <p> Rua Piquete, 1126 / Nova Campinas </p>
-              <p> CEP 12312389 </p>
-              <p> (19) bjs me liga </p>
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://localhost/christ/sites/default/files/pinRodape.png">
+                </div>
+                <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p class="nome-cidade"> CAMPINAS </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p> Rua Piquete, 1126 / Nova Campinas </p>
+                      <p> CEP 12312389 </p>
+                      <p> <img src="http://localhost/christ/sites/default/files/telefoneRodape.png">(19) bjs me liga </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div class="col-sm-6">
-              <p> BAURU </p>
-              <p> Av Nações Unidas, 17-17 / Centro </p>
-              <p> CEP 12312389 </p>
-              <p> (14) bjs me liga </p>
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://localhost/christ/sites/default/files/pinRodape.png">
+                </div>
+                <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p class="nome-cidade"> BAURU </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p> Av Nações Unidas, 17-17 / Centro </p>
+                      <p> CEP 12312389 </p>
+                      <p> <img src="http://localhost/christ/sites/default/files/telefoneRodape.png">(14) bjs me liga </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="row">
             <div class="col-sm-6">
-              <p>email@christassessoria.com.br</p>
-              <p>facebook.com/christassessoria</p>
+              <p><img src="http://localhost/christ/sites/default/files/iconeEmailRodape.png">email@christassessoria.com.br</p>
+              <p><img src="http://localhost/christ/sites/default/files/iconeFacebookRodape.png">facebook.com/christassessoria</p>
             </div>
 
             <div class="col-sm-6">
-              <img src="./sites/all/themes/hug2/images/aconseg.png">
+              <img src="http://localhost/christ/sites/default/files/aconsegRodape.png">
             </div>
           </div>
 

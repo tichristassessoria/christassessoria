@@ -19,7 +19,8 @@
 }
 
 .footer {
-	background-color: @blue-christ;
+	background-color: @blue-jairo;
+	height: 350px;
 }
 
 #navbar {
@@ -140,15 +141,78 @@ body {
 }
 
 .principalProdutos {
-	//background-image: url("http://localhost/christ/sites/default/files/bannerProdutos.png");
-	//background-size: 1924px 384px;
-	//height: 384px;
+	background: @orange-jairo url("http://localhost/christ/sites/default/files/bannerProdutos.png") no-repeat center;
+	height: 384px;
+
+	.btnConheca {
+		text-align: center;
+
+		.btn {			
+    	font-size: 35px;		
+			height: 80px;
+			padding: 10px 12px;
+    	width: 350px;
+		}
+	}
 
 	.tituloProdutos {
 		color: @blue-jairo;
 		font-family: @font-titillium;
 		font-size: 50px;
 		font-weight: 800;
-		padding-top: 90px;
+		margin-bottom: 35px;
+		padding-top: 75px;
+		text-align: center;
+	}
+}
+
+.btn {
+	background-color: @azul-medio-christ;
+	border: none;
+	border-radius: 0;
+	color: @white;
+	font-family: @font-titillium;
+}
+
+.trabalheConosco {
+
+	.btn {
+		font-family: @font-titillium;
+		font-size: 31px;
+		height: 80px;
+		width: 365px;
+	}
+
+	.imgTrabalheConosco {
+		background: @white url("http://localhost/christ/sites/default/files/bannerTrabalhe.png") no-repeat right bottom;
+	}
+
+	.trabalheConoscoTitulo {
+		color: @orange-jairo;
+		font-family: @font-titillium;
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+	.trabalheConoscoTexto {
+		color: @grey-christ;
+		font-family: @font-PTSans;
+		font-size: 20px;
+	}
+}
+
+.rodape {
+	.unidades-titulo {
+		color: @white;
+		font-family: @font-titillium;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.nome-cidade {
+		color: @laranja-claro-christ;
+		font-family: @font-PTSans;
+		font-size: 18px;
+		font-weight: 700;
 	}
 }
